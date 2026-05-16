@@ -3,40 +3,40 @@ import './App.css'
 import TipCard from './components/TipCard'
 
 function App() {
-  const tips = [
-    {
-      titulo: '💻 Practicá código un poco todos los días.',
-      detalle: 'La práctica constante ayuda a fijar conceptos y ganar confianza al programar.'
-    },
-    {
-      titulo: '🧠 Leé los errores antes de buscar ayuda.',
-      detalle: 'Los mensajes de error suelen indicar exactamente dónde está el problema.'
-    },
-    {
-      titulo: '📝 Dividí un problema grande en pasos pequeños.',
-      detalle: 'Resolver partes pequeñas hace más fácil entender y programar la solución completa.'
-    },
-    {
-      titulo: '📚 Comentá tu código para entenderlo mejor.',
-      detalle: 'Los comentarios te ayudan a recordar qué hace cada parte del programa.'
-    },
-    {
-      titulo: '🚀 Probá aunque no estés segura del resultado.',
-      detalle: 'Experimentar y equivocarse forma parte del aprendizaje en programación.'
-    },
-    {
-      titulo: '💾 Guardá tus archivos antes de ejecutar.',
-      detalle: 'Guardar evita perder cambios y permite probar siempre la última versión del código.'
-    },
-    {
-      titulo: '🔍 No copies código sin comprenderlo.',
-      detalle: 'Entender cada línea te ayuda a aprender y resolver problemas sola.'
-    },
-    {
-      titulo: '☕ La paciencia también es parte de programar.',
-      detalle: 'Tomarse tiempo para pensar y descansar ayuda a encontrar soluciones.'
-    }
-  ]
+ const tips = [
+  {
+    titulo: '🚀 Empezá por la tarea que más evitás.',
+    detalle: 'Lo difícil primero: cuando lo sacás del camino, el resto fluye mucho más liviano.'
+  },
+  {
+    titulo: '⏳ Trabajá en bloques con mini recompensas.',
+    detalle: '25 minutos de foco + 5 de descanso: tu cerebro rinde más cuando sabe que hay pausas.'
+  },
+  {
+    titulo: '📱 Silenciá el mundo por un rato.',
+    detalle: 'No es ignorar todo, es regalarte un espacio sin interrupciones para avanzar de verdad.'
+  },
+  {
+    titulo: '🧠 Pensá el día antes de empezarlo.',
+    detalle: 'Si ya sabés qué hacer cuando arrancás, evitás perder energía decidiendo sobre la marcha.'
+  },
+  {
+    titulo: '🌿 Descansar también es avanzar.',
+    detalle: 'Las pausas no te frenan: te recargan para seguir con más claridad.'
+  },
+  {
+    titulo: '🧹 Ordená tu espacio, ordená tu mente.',
+    detalle: 'Un entorno simple ayuda a pensar con menos ruido mental.'
+  },
+  {
+    titulo: '🎯 Una cosa bien hecha vale más que cinco a medias.',
+    detalle: 'Enfocarte en una sola tarea mejora la calidad y te ahorra estrés.'
+  },
+  {
+    titulo: '🌙 Dormir bien es tu superpoder oculto.',
+    detalle: 'Con buen descanso, tu atención, memoria y creatividad funcionan al máximo.'
+  }
+]
 
   const [selected, setSelected] = useState(0)
   const [votes, setVotes] = useState(new Array(tips.length).fill(0))
